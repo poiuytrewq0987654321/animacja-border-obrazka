@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+.border{
+    height:265px;
+    width:490px;
+    margin:100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.border:hover{
+    border:1px solid black;
+}
+
+.outer{
+    height:255px;
+    width:480px;
+    background-image: url(../jezioro.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    left:0;
+    right:0;
+    margin:0 auto;
+}
+
+.napis{
+    width:100%;
+    position: absolute;
+    height:75px;
+    background-color: blue;
+    padding:5px;
+    top:50%;
+    transform: translateY(-50%);
+    visibility: hidden;
+}
+
+.napis p{
+    color:white;
+    font-size:18px;
+    text-align: center;
+}
+.napis:hover{
+    visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
