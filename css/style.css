@@ -1,60 +1,45 @@
 *{
     margin:0;
     box-sizing: border-box;
+    
 }
 
-.border{
-    height:265px;
-    width:490px;
-    margin:100px;
-    position: relative;
-    overflow: hidden;
+.jakis{
+    height:200px;
 }
 
-.border:hover{
-    border:1px solid black;
-}
-
-.outer{
-    height:255px;
-    width:480px;
+.obrazek{
+    height:200px;
+    width:200px;
     background-image: url(../jezioro.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    position: absolute;
-    top:50%;
-    transform: translateY(-50%);
-    left:0;
-    right:0;
-    margin:0 auto;
+    background-size: cover;
+    position: relative;
+    margin:200px;
 }
 
-.napis{
+.border{
+    position: absolute;
+    width:210px;
+    height:210px;
+    border:1px solid black;
+    transform: translate(-2.5%,-2.5%);
+    opacity:0;
+}
+.text{
     width:100%;
     position: absolute;
-    height:75px;
-    background-color: blue;
-    padding:5px;
     top:50%;
-    transform: translateY(-50%);
-    visibility: hidden;
-}
-
-.napis p{
-    color:white;
-    font-size:18px;
+    color:#fff;
+    background-color: black;
     text-align: center;
-}
-.napis:hover{
-    visibility: visible;
+    transform: translateY(-50%);
 }
 
-
-
-
-
-
-
-
+.border:hover{
+    opacity:1;
+    
+}
 
 
